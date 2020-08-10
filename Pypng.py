@@ -16,7 +16,7 @@ def register(cb):
 class py2pngMod(loader.Module):
 	"""Uploader"""
 	strings = {
-		"name": "pypng"
+		"name": "screen"
 	}
 
 	async def client_ready(self, client, db):
