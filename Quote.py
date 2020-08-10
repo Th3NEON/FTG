@@ -35,7 +35,9 @@ class QuotesMod(loader.Module):
 		if not reply:
 			await utils.answer(message, '<b>Нет реплая</b>')
 			return
-		await message.edit("<b>Обработка...</b>")
+		await message.edit("<b>╔═══════════════╗
+  -    --   З а г р у з к а --   -
+╚═══════════════╝</b>")
 		
 			
 		if not args or not args.isdigit():
