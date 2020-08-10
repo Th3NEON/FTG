@@ -7,11 +7,11 @@ class HeartsMod(loader.Module):
 	async def lheartscmd(self, message):
 		for _ in range(10):
 			for lheart in ['❤', '️🧡', '💛', '💚', '💙', '💜', '🤎', '🖤', '🤍']:
-				await message.edit(lheart)
+				await message.edit(heart)
 				await sleep(3)
 	
 	async def sheartscmd(self, message):
 		for _ in range(10):
 			for sheart in ['❤', '️🧡', '💛', '💚', '💙', '💜', '🤎', '🖤', '🤍']:
-				await message.edit(sheart)
+				await message.edit(hearts)
 				await sleep(0.3)
