@@ -1,4 +1,4 @@
-# .rbg
+# .remove
 
 # please, make sure change api key to yours. thanks
 
@@ -13,7 +13,7 @@ from telethon.tl.types import MessageMediaPhoto
 from userbot import CMD_HELP, REM_BG_API_KEY, TEMP_DOWNLOAD_DIRECTORY
 
 
-@register(outgoing=True, pattern="^.rbg(?: |$)(.*)")
+@register(outgoing=True, pattern="^.remove(?: |$)(.*)")
 async def kbg(remob):
     """ For .rbg command, Remove Image Background. """
     input_str = remob.pattern_match.group(1)
