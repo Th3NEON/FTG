@@ -1,4 +1,4 @@
-#Syntax: .ppg @username
+#Syntax: .user @username
 
 import html
 from telethon.tl.functions.photos import GetUserPhotosRequest
@@ -8,7 +8,7 @@ from telethon.utils import get_input_location
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd("ppg ?(.*)"))
+@borg.on(admin_cmd("user ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
