@@ -8,7 +8,7 @@ from userbot.events import register
 
 @register(outgoing=True, pattern='^.fl(?: |$)(.*)')
 async def typewriter(typew):
-    await typew.edit("`Start Loading...`")
+    await typew.edit("`З а г р у з к а. . . . `")
     sleep(1)
     await typew.edit("0%")
     number = 1
