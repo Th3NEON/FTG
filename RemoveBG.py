@@ -15,7 +15,7 @@ from telethon.tl.types import MessageMediaPhoto
 from userbot import CMD_HELP, REM_BG_API_KEY, TEMP_DOWNLOAD_DIRECTORY
 
 
-@register(outgoing=True, pattern="^.rbg(?: |$)(.*)")
+@register(outgoing=True, pattern="^.remove(?: |$)(.*)")
 async def kbg(remob):
     """ .rbg Удаляет фон на изображении. """
     input_str = remob.pattern_match.group(1)
