@@ -12,7 +12,7 @@ class YandexReverseSearchMod(loader.Module):
     strings = {"name": "YandexReverseSearch",
                "search": "тЪктЪктЪк\nтЪктЭУтЪк\nтЪктЪктЪк",
                "no_reply": "<b>Reply to image or sticker!</b>",
-               "result": '<a href="{}"><b>ЁЯФ┤тЪкЁЯФ┤|See</b>\n<b>тЪкЁЯФ┤тЪк|Search</b>\n<b>тЪкЁЯФ┤тЪк|Results</b></a>',
+               "result": '<a href="{}"><b>|Глянуть</b>\n<b>|Искать</b>\n<b>|Результаты</b></a>',
                "error": '<b>Something went wrong...</b>'}
     @loader.owner
     async def searchcmd(self, message):
