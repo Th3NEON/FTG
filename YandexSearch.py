@@ -10,7 +10,9 @@ import string
 class YandexReverseSearchMod(loader.Module):
     """Reverse image search via Yandex (he is the best, imho)"""
     strings = {"name": "YandexReverseSearch",
-               "search": "тЪктЪктЪк\nтЪктЭУтЪк\nтЪктЪктЪк",
+               "search": "╔═══════════════╗
+  -    --   З а г р у з к а --   -
+╚═══════════════╝",
                "no_reply": "<b>Reply to image or sticker!</b>",
                "result": '<a href="{}"><b>|Глянуть</b>\n<b>|Искать</b>\n<b>|Результаты</b></a>',
                "error": '<b>Something went wrong...</b>'}
