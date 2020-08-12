@@ -9,7 +9,7 @@ class PoliceMod(loader.Module):
 	strings = {"name": "Police"}
 	@loader.owner
 	async def policecmd(self, message):
-		light = ("🔴"*2)+("⬜"*2)+("🔵"*2)
+		light = ("🔴"*3)+("⬜"*3)+("🔵"*3)
 		for i in range(30):
 			await message.edit("\n".join([[light, light[::-1]][i%2]]*3))
 			await sleep(0.7)
