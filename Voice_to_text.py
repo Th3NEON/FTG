@@ -30,7 +30,7 @@ class TextMod(loader.Module):
 		except:
 			await message.edit("Поддерживает только голосовые сообщения!!!")
 		chat = '@voicybot'
-		await message.edit('@voicybot <code>обработка...</code>')
+		await message.edit('<code>Обработка...</code>')
 		async with message.client.conversation(chat) as conv:
 			try:	
 				response = conv.wait_event(events.NewMessage(incoming=True, from_users=259276793))
