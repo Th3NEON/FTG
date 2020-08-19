@@ -1,4 +1,4 @@
-"""COMMAND : .kill"""
+"""COMMAND : .kil"""
 
 from telethon import events
 
@@ -23,7 +23,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "kill":
+    if input_str == "kil":
 
         await event.edit(input_str)
 
