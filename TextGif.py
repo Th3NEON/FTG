@@ -23,7 +23,7 @@ class QuotLyMod(loader.Module):
         self.me = await client.get_me()
 
     async def dmcmd(self, event):
-        """.qq <reply>"""
+        """.gif <reply>"""
         user_msg = """{}""".format(utils.get_args_raw(event))
         reply_and_text = False
         if event.fwd_from:
