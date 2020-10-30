@@ -39,7 +39,7 @@ class DiceMod(loader.Module):
     @loader.unrestricted
     async def dicecmd(self, message):
         """Rolls a die (optionally with the specified value)
-           .dice <emoji> <outcomes> <count>"""
+           .d <emoji> <outcomes> <count>"""
         args = utils.get_args(message)
         if await self.allmodules.check_security(message, security.OWNER | security.SUDO):
             try:
