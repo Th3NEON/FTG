@@ -16,7 +16,7 @@ async def register(cb):
 
 @loader.tds
 class DemoterMod(loader.Module):
-	"""Демотиваторы"""
+	"""ТекстКартинка"""
 	strings = {
 		"name": "Demoter"
 	}
@@ -24,7 +24,7 @@ class DemoterMod(loader.Module):
 	async def client_ready(self, client, db):
 		self.client = client
 
-	async def demotcmd(self, message):
+	async def tcmd(self, message):
 		start = datetime.now()
 		text = utils.get_args_raw(message)
 		if not text:
